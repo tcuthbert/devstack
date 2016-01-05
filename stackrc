@@ -126,6 +126,9 @@ elif [[ -f $RC_DIR/.localrc.auto ]]; then
     source $RC_DIR/.localrc.auto
 fi
 
+# Fix urllib3 issues
+export PYTHONWARNINGS="ignore:Unverified HTTPS request"
+
 # Configure Identity API version: 2.0, 3
 IDENTITY_API_VERSION=${IDENTITY_API_VERSION:-2.0}
 
