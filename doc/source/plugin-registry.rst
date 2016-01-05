@@ -20,31 +20,31 @@ The following are plugins that exist for official OpenStack projects.
 +------------------+---------------------------------------------+--------------------+
 |Plugin Name       |URL                                          |Comments            |
 +------------------+---------------------------------------------+--------------------+
-|aodh              |git://git.openstack.org/openstack/aodh       | alarming           |
+|aodh              |https://git.openstack.org/openstack/aodh       | alarming           |
 +------------------+---------------------------------------------+--------------------+
-|barbican          |git://git.openstack.org/openstack/barbican   | key management     |
+|barbican          |https://git.openstack.org/openstack/barbican   | key management     |
 +------------------+---------------------------------------------+--------------------+
-|ceilometer        |git://git.openstack.org/openstack/ceilometer | metering           |
+|ceilometer        |https://git.openstack.org/openstack/ceilometer | metering           |
 +------------------+---------------------------------------------+--------------------+
-|congress          |git://git.openstack.org/openstack/congress   | governance         |
+|congress          |https://git.openstack.org/openstack/congress   | governance         |
 +------------------+---------------------------------------------+--------------------+
-|gnocchi           |git://git.openstack.org/openstack/gnocchi    | metric             |
+|gnocchi           |https://git.openstack.org/openstack/gnocchi    | metric             |
 +------------------+---------------------------------------------+--------------------+
-|ironic            |git://git.openstack.org/openstack/ironic     | baremetal          |
+|ironic            |https://git.openstack.org/openstack/ironic     | baremetal          |
 +------------------+---------------------------------------------+--------------------+
-|magnum            |git://git.openstack.org/openstack/magnum     |                    |
+|magnum            |https://git.openstack.org/openstack/magnum     |                    |
 +------------------+---------------------------------------------+--------------------+
-|manila            |git://git.openstack.org/openstack/manila     | file shares        |
+|manila            |https://git.openstack.org/openstack/manila     | file shares        |
 +------------------+---------------------------------------------+--------------------+
-|mistral           |git://git.openstack.org/openstack/mistral    |                    |
+|mistral           |https://git.openstack.org/openstack/mistral    |                    |
 +------------------+---------------------------------------------+--------------------+
-|rally             |git://git.openstack.org/openstack/rally      |                    |
+|rally             |https://git.openstack.org/openstack/rally      |                    |
 +------------------+---------------------------------------------+--------------------+
-|sahara            |git://git.openstack.org/openstack/sahara     |                    |
+|sahara            |https://git.openstack.org/openstack/sahara     |                    |
 +------------------+---------------------------------------------+--------------------+
-|trove             |git://git.openstack.org/openstack/trove      |                    |
+|trove             |https://git.openstack.org/openstack/trove      |                    |
 +------------------+---------------------------------------------+--------------------+
-|zaqar             |git://git.openstack.org/openstack/zaqar      |                    |
+|zaqar             |https://git.openstack.org/openstack/zaqar      |                    |
 +------------------+---------------------------------------------+--------------------+
 
 
@@ -55,9 +55,9 @@ Drivers
 +--------------------+-------------------------------------------------+------------------+
 |Plugin Name         |URL                                              |Comments          |
 +--------------------+-------------------------------------------------+------------------+
-|dragonflow          |git://git.openstack.org/openstack/dragonflow     |[d1]_             |
+|dragonflow          |https://git.openstack.org/openstack/dragonflow     |[d1]_             |
 +--------------------+-------------------------------------------------+------------------+
-|odl                 |git://git.openstack.org/openstack/networking-odl |[d2]_             |
+|odl                 |https://git.openstack.org/openstack/networking-odl |[d2]_             |
 +--------------------+-------------------------------------------------+------------------+
 
 .. [d1] demonstrates example of installing 3rd party SDN controller
@@ -72,7 +72,7 @@ Alternate Configs
 | Plugin Name | URL                                                        | Comments   |
 |             |                                                            |            |
 +-------------+------------------------------------------------------------+------------+
-|glusterfs    |git://git.openstack.org/openstack/devstack-plugin-glusterfs |            |
+|glusterfs    |https://git.openstack.org/openstack/devstack-plugin-glusterfs |            |
 +-------------+------------------------------------------------------------+------------+
 |             |                                                            |            |
 +-------------+------------------------------------------------------------+------------+
@@ -84,9 +84,9 @@ Additional Services
 | Plugin Name    | URL                                              | Comments   |
 |                |                                                  |            |
 +----------------+--------------------------------------------------+------------+
-|ec2-api         |git://git.openstack.org/openstack/ec2-api         |[as1]_      |
+|ec2-api         |https://git.openstack.org/openstack/ec2-api         |[as1]_      |
 +----------------+--------------------------------------------------+------------+
-|ironic-inspector|git://git.openstack.org/openstack/ironic-inspector|            |
+|ironic-inspector|https://git.openstack.org/openstack/ironic-inspector|            |
 +----------------+--------------------------------------------------+------------+
 |                |                                                  |            |
 +----------------+--------------------------------------------------+------------+
