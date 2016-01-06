@@ -84,7 +84,7 @@ export OS_IDENTITY_API_VERSION=${IDENTITY_API_VERSION:-2.0}
 # the user/tenant has access to - including nova, glance, keystone, swift, ...
 # We currently recommend using the 2.0 *identity api*.
 #
-export OS_AUTH_URL=$KEYSTONE_AUTH_PROTOCOL://$KEYSTONE_AUTH_HOST:5000/v${OS_IDENTITY_API_VERSION}
+export OS_AUTH_URL=$KEYSTONE_AUTH_PROTOCOL://$KEYSTONE_AUTH_HOST:5000
 
 # Set OS_CACERT to a default CA certificate chain if it exists.
 if [[ ! -v OS_CACERT ]] ; then
